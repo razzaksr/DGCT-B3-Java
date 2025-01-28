@@ -1,4 +1,4 @@
-package basic.core;
+package basic.core.fund;
 
 // Bit wise operator only for int, char, byte
 

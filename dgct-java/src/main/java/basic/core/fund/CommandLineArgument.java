@@ -1,4 +1,4 @@
-package basic.core;
+package basic.core.fund;
 
 public class CommandLineArgument {
     public static void main(String[] ece) {

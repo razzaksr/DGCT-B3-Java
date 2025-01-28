@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyWallet",
+            "request": "launch",
+            "mainClass": "basic.core.decision.MyWallet",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "DemoSwitch",
+            "request": "launch",
+            "mainClass": "basic.core.decision.DemoSwitch",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "PaymentTransfer",
+            "request": "launch",
+            "mainClass": "basic.core.decision.PaymentTransfer",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "Taxation",
+            "request": "launch",
+            "mainClass": "basic.core.decision.Taxation",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "BmiReport",
+            "request": "launch",
+            "mainClass": "basic.core.decision.BmiReport",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
             "name": "Bitwise",
             "request": "launch",
             "mainClass": "basic.core.Bitwise",

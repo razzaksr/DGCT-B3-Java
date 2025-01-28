@@ -1,4 +1,4 @@
-package basic.core;
+package basic.core.fund;
 
 import java.util.Scanner;
 
