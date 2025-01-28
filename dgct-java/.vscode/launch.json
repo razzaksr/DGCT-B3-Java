@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Bitwise",
+            "request": "launch",
+            "mainClass": "basic.core.Bitwise",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "Expression",
+            "request": "launch",
+            "mainClass": "basic.core.Expression",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "TypeCasting",
+            "request": "launch",
+            "mainClass": "basic.core.TypeCasting",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "basic.core.App",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "CommandLineArgument",
+            "request": "launch",
+            "mainClass": "basic.core.CommandLineArgument",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "Interactive",
+            "request": "launch",
+            "mainClass": "basic.core.Interactive",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "TypeParsing",
+            "request": "launch",
+            "mainClass": "basic.core.TypeParsing",
+            "projectName": "dgct-java"
+        }
+    ]
+}
