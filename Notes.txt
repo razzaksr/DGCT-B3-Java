@@ -1,0 +1,220 @@
+Batch 3:ECE/ EEE
+
+Catia
+
+
+
+why need to code?
+
+to automate by building s/w:
+	hardware
+	process
+
+
+
+s/w:
+	data handling
+	operating over the data
+
+
+types:
+Console/ desktop app
+web app
+mobile
+iot
+
+
+
+Java:
+	Handling data:
+		variables: container for data 			data types: int, float, double, char, short, long, Boolean, byte
+		
+	Performing Operations
+
+
+
+Software's required to code:
+	Java Development Kit:
+			Compiler>> developer>> code&run
+			.java>> .class(bytecode)
+		Java Runtime Environment:>> Execution:
+			layer
+			Java Virtual Machine: 
+				Interpreter>> bytecode to machine
+				memory
+				
+			
+	VS Code
+	Maven 3.9.9:
+	https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip
+	
+
+	Syntax of java:
+		class ANYNAME
+		{
+			public static void main(String[] ANYNAME){
+				System.out.pritnln("");
+			}
+		}
+
+	
+	Maven Project: archetype: quickstart
+		Project:
+			src:
+				main:
+					java: source java files
+					resource: images, config
+				test:
+					java: testing code
+			target:
+				compiled code
+				jar/war file
+			project object model.xml
+				project config, library
+				
+
+	MS WORD:
+		other 		Java
+		500MB		300MB RAM
+					200MB JVM
+		exe/msi		jar
+
+
+
+   Maven Project:
+		vs code: extension pack for java
+			ctrl+shift+p
+				maven:
+					switch to flat view
+
+
+    Folder:
+	vs code>> maven-project
+
+
+    https://github.com/razzaksr/DGCT-B3-Java
+
+
+
+	7000+ class>> jdk
+	purpose>> 
+	folders>> packages
+	java.lang>> language>> default
+		String, System, Wrappers, Object, 
+	java.io	> input/output
+		Files, Streams,
+	java.util	> utility 
+		Collections, Scanner
+	java.sql	> database connectivity
+
+	Data types:
+		whole number: short(2), int(4), long(8)
+		fractional num: float(4), double(8)
+		char(2), byte(1), boolean(4bits)
+	Wrappers:
+		Short, Integer, Long, Float, Double, Byte, Character, Boolean
+
+	i. memory
+	ii. inbuilt method/funtion
+
+	Type conversion:
+		a. casting: between datatypes		
+			eg: (type)
+			
+		b. parsing: String to other types
+			using respective wrapper fun
+			eg: Wrapper.parseType(str)
+
+
+
+	Identifiers:
+		Project, package, class, varables, methods, 
+	
+	Keywords:
+		53+ words
+
+
+Command Line argument:
+	javac File.java
+	java File input1 input2 input3
+
+
+	task: using command line argument
+		1. Find the BMI: input: height, weight
+		2. Find the given is prime or not
+		3. Find the even between given range
+
+Operators:
+	arithmetic
+	unary
+	logical
+	relational
+	short hand
+	bitwise: & | ^ >> << 
+
+
+	Decision Making/ Control Statements:
+	if		>> all relational and logical, all data type
+
+suggest investment plan to customer based on his return of interest rate 
+
+	task : IVR of bank contains deposit, withdraw and transfer 
+		1. deposit enter the money and add with available
+		2. withdraw enter the money if matches draw otherwise print insufficient balance
+		3. transfer needs receiver name and amount, check amount+5 against available transfer if okay
+		
+
+
+
+
+
+
+
+
+
+	switch	>> only ==, int, char, String
+	
+
+
+	task :
+            create expense calculator:
+		switch to check whether income/ expense
+			1. income add with wallet
+			2. expense subtract from wallet
+		finally print value
+
+
+	Looping statements:
+		repeat in determined/ undetermined interval
+		complexity>> 
+
+
+		properties:
+			start		>> initialization
+			end		>> condition
+			step up>> linear, non-linear>> iteration
+
+		types:
+			entry: while, for
+			exit: do while
+			
+			for each
+		usages: real time, series
+
+
+
+
+task:
+	find the first and second min in 10 given int's via loop
+
+
+Array: compile time memory, fixed
+
+type[] var=new type[size];
+type[] var={v1,v2};
+
+index >> 0
+length>> size/capacity
+
+var[index]=value
+CRUD

@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CoinChange",
+            "request": "launch",
+            "mainClass": "basic.core.looping.CoinChange",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "FindNoOfDebits",
+            "request": "launch",
+            "mainClass": "basic.core.looping.FindNoOfDebits",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "MinSMin",
+            "request": "launch",
+            "mainClass": "basic.core.looping.MinSMin",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "StockClearance",
+            "request": "launch",
+            "mainClass": "basic.core.looping.StockClearance",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "NonLinear",
+            "request": "launch",
+            "mainClass": "basic.core.looping.NonLinear",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "Objective",
+            "request": "launch",
+            "mainClass": "basic.core.looping.Objective",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
             "name": "MyWallet",
             "request": "launch",
             "mainClass": "basic.core.decision.MyWallet",
