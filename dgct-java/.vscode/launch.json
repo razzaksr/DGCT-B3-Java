@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Searching",
+            "request": "launch",
+            "mainClass": "basic.core.array.Searching",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "Sorting",
+            "request": "launch",
+            "mainClass": "basic.core.array.Sorting",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
+            "name": "BusBay",
+            "request": "launch",
+            "mainClass": "basic.core.looping.BusBay",
+            "projectName": "dgct-java"
+        },
+        {
+            "type": "java",
             "name": "CoinChange",
             "request": "launch",
             "mainClass": "basic.core.looping.CoinChange",

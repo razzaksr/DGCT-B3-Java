@@ -216,5 +216,45 @@ type[] var={v1,v2};
 index >> 0
 length>> size/capacity
 
+
+
+Nested Loop:
+	LOOP1: Start, end, iter
+		// STATEMENT
+		LOOP2: Start,end, iter
+			// STATEMENT
+
+eg:
+	schedule 1, 10 buses >> loop1
+			bus ticket 1, 50>> loop2
+
+Selection Sort:
+	0>> 1,2,3,4,5
+	1>> 2,3,4,5
+	2>> 3,4,5
+	3>> 4,5
+	4>> 5
+
+
+
+
+
 var[index]=value
 CRUD
+
+
+
+
+
+Razak Mohamed Shahul 
+
+
+
+
+
+
+
+
+
+
+
